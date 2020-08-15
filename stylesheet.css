@@ -1,0 +1,177 @@
+*
+{
+margin:0 auto 0 auto;
+text-align:left;
+}
+
+body
+{
+background-color:#5971AD;
+font:16px Arial, sans-serif;
+color:black;
+}
+
+body div
+{
+display:block;
+height:auto;
+position:relative;
+width:800px;
+background-color:white;
+}
+
+#header
+{
+height:160px;
+padding:15px;
+}
+
+#header h1 a
+{
+margin-top:100px;
+position:absolute;
+font-size:50px;
+color:#5971AD;
+text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+text-decoration:none;
+}
+
+#fll-logo
+{
+float:right;
+width:100px;
+}
+
+#menu
+{
+z-index:1000;
+padding:15px;
+font-size:16px;
+border-top:solid black 1px;
+border-bottom:solid black 1px;
+}
+
+nav ul
+{
+list-style:none;
+height:35px;
+display:table-cell;
+vertical-align:middle;
+padding:0;
+}
+
+nav ul li
+{
+font-weight:bold;
+margin-right:30px;
+float:left;
+}
+
+nav ul li:last-child
+{
+margin-right:0px;
+}
+
+nav ul li a
+{
+text-decoration:none;
+color:black;
+}
+
+nav ul li a:hover
+{
+text-decoration:none;
+color:#5971AD;
+}
+
+nav ul li #page-here
+{
+color:#5971AD;
+}
+
+#content
+{
+padding:15px;
+}
+
+a
+{
+text-decoration:none;
+color:#5971AD;
+}
+
+a:hover
+{
+text-decoration:underline;
+}
+
+.center
+{
+text-align:center;
+}
+
+.nob
+{
+font-weight:normal;
+}
+
+.b
+{
+font-weight:bold;
+}
+
+.red
+{
+color:red;
+}
+
+.normal
+{
+font-weight:normal;
+font-size:16px;
+}
+
+#home tr td
+{
+width:400px;
+vertical-align:top;
+}
+
+#schedule-save
+{
+float:right;
+font-weight:normal;
+}
+
+#teams tr td
+{
+width:250px;
+vertical-align:middle;
+}
+
+#teams tr:first-child td
+{
+font-weight:bold;
+height:30px;
+vertical-align:top;
+font-size:18px;
+}
+
+#sponsors tr td a img
+{
+width:398px;
+}
+
+#reg-form p
+{
+margin-bottom:5px;
+}
+
+#reg-form span
+{
+color:red;
+}
